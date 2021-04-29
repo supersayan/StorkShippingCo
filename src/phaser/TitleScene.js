@@ -31,7 +31,7 @@ class TitleScene extends Phaser.Scene {
     themusic.play();
     this.add.image(400, 300, "background");
 
-    let startBtn = this.add.text(350, 500, "Start", { ...fontFam });
+    let startBtn = this.add.text(350, 500, "Start!", { ...fontFam });
     let instructBtn = this.add.text(180, 550, "Instructions", { ...fontFam });
     let resourceBtn = this.add.text(420, 550, "Resources", { ...fontFam });  
 
